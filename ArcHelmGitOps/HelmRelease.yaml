@@ -12,4 +12,4 @@ spec:
     spec:
       chart: ./ArcHelmGitOps/charts/kubernetesdeploymentdemo
   values:
-    replicaCount: 1
+    replicaCount: 3
