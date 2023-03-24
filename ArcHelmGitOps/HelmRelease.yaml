@@ -12,5 +12,5 @@ spec:
     spec:
       chart: ./ArcHelmGitOps/charts/kubernetesdeploymentdemo
   values:
-      key1: values
+    key1: values
       
