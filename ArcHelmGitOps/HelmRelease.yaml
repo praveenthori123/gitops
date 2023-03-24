@@ -12,4 +12,6 @@ spec:
     spec:
       chart: ./ArcHelmGitOps/charts/kubernetesdeploymentdemo
   values:
-    replicaCount: 3
+   config:
+      key1: values.yaml
+      
