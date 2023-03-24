@@ -11,6 +11,6 @@ spec:
   chart: 
     spec:
       chart: ./ArcHelmGitOps/charts/kubernetesdeploymentdemo
-  values:
-    key1: values
+  valuesFrom:
+      valuesKey: values.yaml
       
